@@ -118,7 +118,21 @@ Validation
      ↓
 Order Success Page
 ```
+### Products Page
 
+![Products Page](06-product-catalogue.png)
+
+### Cart Page
+
+![Cart Page](08-cart-page.png)
+
+### Checkout Page
+
+![Checkout Page](11-checkout-validation-working.png)
+
+### Order Confirmation Page
+
+![Order Confirmation Page](12-Order-confirmation.png)
 ---
 
 ## 🎯 Learning Outcomes
