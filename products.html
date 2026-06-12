@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - ShopEase</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <h1 class="logo">ShopEase</h1>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart <span id="cart-count">0</span></a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <h1 class="page-heading">Our Products</h1>
+
+    <div class="controls">
+        <select id="sortSelect">
+            <option>Sort By</option>
+            <option>Price Low to High</option>
+            <option>Price High to Low</option>
+        </select>
+    </div>
+
+    <div id="product-container" class="product-grid"></div>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 ShopEase. All rights reserved.</p>
+</footer>
+
+<script src="js/products.js"></script>
+<script src="js/cartlogic.js"></script>
+
+</body>
+</html>

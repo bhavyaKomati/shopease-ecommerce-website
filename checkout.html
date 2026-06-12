@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - ShopEase</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <h1 class="logo">ShopEase</h1>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="cart.html">Cart <span id="cart-count">0</span></a></li>
+      <li><a href="checkout.html">Checkout</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h1 class="page-heading">Checkout</h1>
+
+  <form id="checkoutForm" class="checkout-form">
+    <input type="text" id="fullName" placeholder="Full Name">
+    <span id="fullNameError"></span>
+
+    <input type="email" id="email" placeholder="Email Address">
+    <span id="emailError"></span>
+
+    <input type="text" id="phone" placeholder="Phone Number">
+    <span id="phoneError"></span>
+
+    <input type="text" id="address" placeholder="Street Address">
+    <span id="addressError"></span>
+
+    <input type="text" id="city" placeholder="City">
+    <span id="cityError"></span>
+
+    <input type="text" id="postal" placeholder="Postal Code">
+    <span id="postalError"></span>
+
+    <input type="text" id="card" placeholder="Card Number">
+    <span id="cardError"></span>
+
+    <input type="text" id="expiry" placeholder="Expiry MM/YY">
+    <span id="expiryError"></span>
+
+    <input type="text" id="cvv" placeholder="CVV">
+    <span id="cvvError"></span>
+
+    <button type="submit">Place Order</button>
+  </form>
+</main>
+
+<footer>
+  <p>&copy; 2026 ShopEase. All rights reserved.</p>
+</footer>
+
+<script src="js/cartlogic.js"></script>
+<script src="js/validation.js?v=100"></script>
+
+</body>
+</html>
